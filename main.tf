@@ -1,12 +1,12 @@
 provider "google" {
   project = "numtide-infra"
-  region = "europe-west1"
+  region = "europe-west2"
 }
 
 locals {
   name = "terraform-nixos-demo"
-  region = "europe-west1"
-  zone = "europe-west1-b"
+  region = "europe-west2"
+  zone = "europe-west2-a"
   network = "default"
 }
 

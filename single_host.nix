@@ -41,13 +41,6 @@
       }
 
       {
-        job_name = "unifi";
-        static_configs = [
-          { targets = [ "localhost:9130" ]; }
-        ];
-      }
-
-      {
         job_name = "node";
         static_configs = [
           { targets = [ "localhost:9100" ]; }
